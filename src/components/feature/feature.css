@@ -39,7 +39,7 @@
     color: var(--color-text);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
     .copyfi__features-container__feature-title h1 {
         font-size: 14px;
         line-height: 22px;
