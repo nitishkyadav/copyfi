@@ -1,16 +1,10 @@
 import React from "react";
 
-import {
-  Footer,
-  Blog,
-  Possibility,
-  Features,
-  Whatcopyfi,
-  Header,
-} from "./containers";
+import { Footer, Blog, Possibility, Features, Header } from "./containers";
 import { Cta } from "./components";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import AboutCopyFi from "./containers/whatcopyfi/AboutCopyFi";
 const App = () => {
   return (
     <div className="App">
@@ -18,7 +12,7 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Whatcopyfi />
+      <AboutCopyFi />
       <Features />
       <Possibility />
       <Cta />

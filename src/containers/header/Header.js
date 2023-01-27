@@ -11,11 +11,9 @@ const Header = () => {
           <p>
             CopyFi is an ecosysytem of various Crypto Services based on
             <span className="keywords">Binance Smart Chain(BSC)</span> including
-            <span className="keywords">Multichain bridge</span>,{" "}
-            <span className="keywords">
-              Multichain Portfolio Tracker dApp for Tokens and Nfts
-            </span>
-            , <span className="keywords">Defi Wallet</span>,{" "}
+            <span className="keywords"> Multichain bridge</span>,{" "}
+            <span className="keywords">Multichain Portfolio Tracker dApp</span>,{" "}
+            <span className="keywords">Defi Wallet</span>, and{" "}
             <span className="keywords">AI Bot</span>
           </p>
         </div>

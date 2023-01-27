@@ -1,0 +1,15 @@
+.utility{
+
+    width: 300px;
+    height: 250px;
+    border: 1px solid white;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.utility h1{
+margin-top: 1rem;
+}
+

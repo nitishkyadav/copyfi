@@ -4,7 +4,7 @@ const feature = ({ title, text }) => {
     return (
         <div className="copyfi__features-container__feature">
             <div className="copyfi__features-container__feature-title">
-                <div />
+                <div/>
                 <h1>{title}</h1>
             </div>
             <div className="copyfi__features-container_feature-text">
