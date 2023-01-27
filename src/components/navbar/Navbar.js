@@ -36,16 +36,16 @@ const Navbar = () => {
         data-visible={isDataVisible}
       >
         <li>
-          <a href="#Wcopyfi">About CopyFi?</a>
+          <a href="#about-copyfi">About CopyFi?</a>
         </li>
         <li>
-          <a href="#Feature">Utilities</a>
+          <a href="#utilities">Utilities</a>
         </li>
         <li>
-          <a href="#blog">Roadmap</a>
+          <a href="#tokenomics">Tokenomics</a>
         </li>
         <li>
-          <a href="#possibility">Tokenomics</a>
+          <a href="#roadmap">Roadmap</a>
         </li>
         <li>
           <a href="#possibility">Team</a>

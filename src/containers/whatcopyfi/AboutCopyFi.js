@@ -35,7 +35,7 @@ const AboutCopyFi = () => {
 
   return (
     <div className="aboutCopyFi_container">
-      <div className="aboutCopyFi">
+      <div className="aboutCopyFi" id="about-copyfi">
         <h1 className="gradient__text">About CopyFi</h1>
         <p>
           CopyFi ia an Ecosystem with wide variety of essential features and
@@ -44,7 +44,7 @@ const AboutCopyFi = () => {
         </p>
       </div>
 
-      <div className="utilities_container">
+      <div className="utilities_container" id="utilities">
         <h1>CopyFi Utilities</h1>
 
         <div className="utilities">
