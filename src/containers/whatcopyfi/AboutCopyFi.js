@@ -9,24 +9,28 @@ import copyBot from "../../assets/utilities/tradeBot-64.png";
 
 const AboutCopyFi = () => {
   const utilitiesData = [
-    { image: airdrop, utilName: "Airdrop Aggregator", alt: "airdrop" },
-    { utilName: "AI Trade Bot", image: tradeBot, alt: "Trade Bot" },
+    { id: 1, utilName: "Airdrop Aggregator", image: airdrop, alt: "airdrop" },
+    { id: 2, utilName: "AI Trade Bot", image: tradeBot, alt: "Trade Bot" },
     {
+      id: 3,
       utilName: "MultiChain Portfolio Tracker",
       image: wallet,
       alt: "Portfolio Tracker",
     },
     {
+      id: 4,
       utilName: "MultiChain Bridge and Swap",
       image: bridge,
       alt: "Multichain Bridge and Swap",
     },
     {
+      id: 5,
       utilName: "Copy Trade Bot",
       image: copyBot,
       alt: "Copy Trade Bot",
     },
     {
+      id: 6,
       utilName: "Marketing and Incubation Services",
       image: marketing,
       alt: "Marketing and Incubation Services",
@@ -50,6 +54,7 @@ const AboutCopyFi = () => {
         <div className="utilities">
           {utilitiesData.map((data) => (
             <Utility
+              key={data.id}
               image={data.image}
               utilName={data.utilName}
               alt={data.alt}
