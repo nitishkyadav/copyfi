@@ -13,9 +13,8 @@ const App = () => {
         <Header />
       </div>
       <AboutCopyFi />
-      <Features />
       <Possibility />
-      <Cta />
+      {/* <Cta /> */}
       <Blog />
       <Footer />
     </div>
