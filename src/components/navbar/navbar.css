@@ -3,9 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 2rem;
     max-width: 1100px;
-
 }
 
 .copyfi__navbar-links_logo{
@@ -73,9 +71,11 @@
   .mobile-nav-toggle[aria-expanded="true"]{
     background: url(../../assets/shared/icon-close.svg);
     background-repeat: no-repeat;
+    margin-left: 20px;
   }
 
     .copyfi__navbar {
+        justify-content: space-between;
         padding: 2rem;
     }
 }

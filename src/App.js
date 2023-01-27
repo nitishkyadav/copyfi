@@ -8,7 +8,7 @@ import {
   Whatcopyfi,
   Header,
 } from "./containers";
-import { Cta, Brand } from "./components";
+import { Cta } from "./components";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 const App = () => {
@@ -18,7 +18,6 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Brand />
       <Whatcopyfi />
       <Features />
       <Possibility />
