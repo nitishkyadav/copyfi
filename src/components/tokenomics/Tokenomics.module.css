@@ -1,0 +1,123 @@
+
+
+/* .tokenomicsContainer{
+    max-width: 1100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    height: auto;
+} */
+
+.heading{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+    margin-bottom: -3rem;
+}
+
+.tokenomics{
+    max-width: 1150px;
+    margin: 1rem auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    gap: 20px;
+    flex: 1 1;
+    align-items: flex-end;
+    padding: 0 25px;
+
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    justify-content: end;
+}
+
+
+
+.barText{
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    
+}
+
+.barText .percentShare{
+    line-break: strict;
+}
+
+.barText .type{
+    line-break: strict;
+}
+
+.barText .supply{
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.bar{
+    background-color: white;
+}
+.bar:hover{
+background-color: #EC5B29;
+}
+
+.totalSupplyContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+
+}
+
+.totalSupplyDetail{
+    padding-bottom: 15px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.totalSupplyDetail span{
+ color:  #EC5B29;   
+}
+
+.totalSupplyBar{
+    /* border: 1px solid white; */
+    background-color: grey;
+    height: 80%;
+    overflow: hidden;
+}
+
+
+.privateSaleBar{
+    height: 8%;
+}
+.presaleBar{
+    height: 40%;
+}
+
+.lpBar{
+    height: 20%;
+}
+
+.reserveBar, .cexBar, .marketingBar{
+    height: 4%;
+    background-color:white;
+}
+
+@media(max-width: 768px){
+    .container{}
+
+    .totalSupplyDetail br{
+       display: none;
+    }
+
+    .barText br{
+        display: none;
+    }
+}
