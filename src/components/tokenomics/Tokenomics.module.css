@@ -113,8 +113,9 @@ background-color: #EC5B29;
 @media(max-width: 768px){
     .container{}
 
-    .totalSupplyDetail br{
-       display: none;
+    .totalSupplyDetail{
+       /* display: none; */
+       line-height: normal;
     }
 
     .barText br{
