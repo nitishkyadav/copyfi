@@ -14,8 +14,8 @@ const App = () => {
         <Header />
       </div>
       <AboutCopyFi />
-      <Possibility />
-      {/* <Tokenomics /> */}
+      {/* <Possibility /> */}
+      <Tokenomics />
       {/* <Cta /> */}
       {/* <Blog /> */}
       <Footer />

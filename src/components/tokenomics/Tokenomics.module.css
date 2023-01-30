@@ -21,21 +21,32 @@
     max-width: 1150px;
     margin: 1rem auto;
     color: white;
-    display: flex;
+    padding: 0 25px;
+    /* display: flex;
     flex-direction: row;
     height: 600px;
     gap: 20px;
     flex: 1 1;
     align-items: flex-end;
-    padding: 0 25px;
+     */
+
+    /* Grid */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 600px;
+    gap: 20px;
+    border: 1px solid white;
+
 
 }
-
+.tokenomicsFlexContainer{
+    display: none;
+}
 .subContainer{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 300px;
+    /* width: 300px; */
     justify-content: end;
 }
 
@@ -71,8 +82,10 @@ background-color: #EC5B29;
 .totalSupplyContainer{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    justify-content: end;
+    /* width: 300px; */
     height: 100%;
+    /* grid-area: totalSupply; */
 
 }
 
@@ -93,10 +106,10 @@ background-color: #EC5B29;
     overflow: hidden;
 }
 
-
 .privateSaleBar{
     height: 8%;
 }
+
 .presaleBar{
     height: 40%;
 }
@@ -110,15 +123,86 @@ background-color: #EC5B29;
     background-color:white;
 }
 
+
 @media(max-width: 768px){
-    .container{}
 
-    .totalSupplyDetail{
-       /* display: none; */
-       line-height: normal;
-    }
-
-    .barText br{
+    .tokenomics{
         display: none;
     }
+    .tokenomicsFlexContainer{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        max-width: 768px;
+        margin: 0 20px;
+        padding: 10px;
+        height: 450px;
+    }
+
+    .flexBars{
+        display: flex;
+        height: 400px;
+        gap: 20px;
+    }
+
+    .totalSupplyBar_flex{
+        height: 100%;
+        width:80px;
+        background-color: gray;
+    }
+
+    .otherBars{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 10px;
+        /* justify-content: flex-end; */
+    }
+
+    .bars_flex{
+        height: 100%;
+        background-color: white;
+        width: 100px;
+    }
+
+    .bars_flex:hover{
+        background-color: #EC5B29;
+    }
+    .presale_flex{
+        display: flex;
+        height: 50%;
+    }
+
+    .lp_flex{
+        display: flex;
+        height: 25%;
+    }
+
+    .private_flex{
+        display: flex;
+        height: 10%
+    }
+
+    .research_flex{
+        display: flex;
+        height: 5%
+    }
+    .cex_flex{
+        display: flex;
+        height: 5%
+    }
+.marketing_flex{
+    display: flex;
+    height: 5%
+}
+
+.supplyText_flex{
+    align-self: flex-end;
+    margin-left: 10px;
+}
+
+.supplyText_flex span{
+    opacity: 0.5;
+}
+
 }
