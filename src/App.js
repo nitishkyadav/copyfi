@@ -20,7 +20,7 @@ const App = () => {
       <Roadmap />
       {/* <Cta /> */}
       {/* <Blog /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
