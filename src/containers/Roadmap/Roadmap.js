@@ -12,12 +12,13 @@ export default function Roadmap() {
   const white = "white";
   return (
     <Fragment>
-      <div className={classes.desktopTimeline}>
+      <div className={classes.desktopTimeline} id="roadmap">
+        <h1>Roadmap</h1>
         <Timeline
           sx={{ maxWidth: "950px", margin: "0 auto" }}
           position="alternate"
         >
-          <TimelineItem>
+          <TimelineItem marginTop="5rem">
             <TimelineOppositeContent
               sx={{ marginTop: "10px", color: "#EC5B29", fontSize: "1.5rem" }}
             >
@@ -137,7 +138,19 @@ export default function Roadmap() {
 
       <Fragment>
         <div className={classes.mobileTimeline}>
-          <Timeline position="right">
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineConnector
+                sx={{
+                  backgroundColor: "grey",
+                  width: "5px",
+                  alignContent: "left",
+                }}
+              />
+            </TimelineSeparator>
+          </TimelineItem>
+
+          {/* <Timeline position="right">
             <TimelineItem>
               <TimelineSeparator>
                 <TimelineConnector
@@ -158,7 +171,7 @@ export default function Roadmap() {
                 </div>
               </TimelineContent>
             </TimelineItem>
-          </Timeline>
+          </Timeline> */}
         </div>
       </Fragment>
     </Fragment>
