@@ -137,6 +137,7 @@ background-color: #EC5B29;
         margin: 0 20px;
         padding: 10px;
         height: 450px;
+        gap:20px;
     }
 
     .flexBars{

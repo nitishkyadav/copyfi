@@ -5,11 +5,6 @@ const Tokenomics = () => {
   return (
     <Fragment>
       <Fragment>
-        {/* <div className={classes.tokenomicsContainer}> */}
-        {/* <div className={classes.heading}>
-        <h1>$CFY Tokenomics</h1>
-      </div> */}
-
         <div className={classes.tokenomics}>
           <div className={`${classes.totalSupplyContainer}`}>
             <div className={classes.totalSupplyDetail}>
@@ -122,9 +117,7 @@ const Tokenomics = () => {
                 <div
                   className={`${classes.lpBar_flex} ${classes.bars_flex}`}
                 ></div>
-                <div
-                  className={`${classes.lpSupply_flex} ${classes.supplyText_flex}`}
-                >
+                <div className={`${classes.supplyText_flex}`}>
                   25% <span>Liquidity</span>
                 </div>
               </div>
@@ -132,9 +125,7 @@ const Tokenomics = () => {
                 <div
                   className={`${classes.privateBar_flex} ${classes.bars_flex}`}
                 ></div>
-                <div
-                  className={`${classes.privateSupply_flex} ${classes.supplyText_flex}`}
-                >
+                <div className={`${classes.supplyText_flex}`}>
                   10% <span>Private</span>
                 </div>
               </div>
@@ -142,9 +133,7 @@ const Tokenomics = () => {
                 <div
                   className={`${classes.researchBar_flex} ${classes.bars_flex}`}
                 ></div>
-                <div
-                  className={`${classes.researchSupply_flex} ${classes.supplyText_flex}`}
-                >
+                <div className={`$${classes.supplyText_flex}`}>
                   5% <span>Research</span>
                 </div>
               </div>
@@ -152,9 +141,7 @@ const Tokenomics = () => {
                 <div
                   className={`${classes.cexBar_flex} ${classes.bars_flex}`}
                 ></div>
-                <div
-                  className={`${classes.cexSupply_flex} ${classes.supplyText_flex}`}
-                >
+                <div className={`${classes.supplyText_flex}`}>
                   5% <span>CEX</span>
                 </div>
               </div>
@@ -162,9 +149,7 @@ const Tokenomics = () => {
                 <div
                   className={`${classes.marketingBar_flex} ${classes.bars_flex}`}
                 ></div>
-                <div
-                  className={`${classes.marketingSupply_flex} ${classes.supplyText_flex}`}
-                >
+                <div className={`${classes.supplyText_flex}`}>
                   5% <span>Marketing</span>
                 </div>
               </div>

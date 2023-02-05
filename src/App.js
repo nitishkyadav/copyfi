@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import AboutCopyFi from "./containers/whatcopyfi/AboutCopyFi";
 import Tokenomics from "./components/tokenomics/Tokenomics";
+import Roadmap from "./containers/Roadmap/Roadmap";
 const App = () => {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ const App = () => {
       <AboutCopyFi />
       {/* <Possibility /> */}
       <Tokenomics />
+      <Roadmap />
       {/* <Cta /> */}
       {/* <Blog /> */}
       <Footer />

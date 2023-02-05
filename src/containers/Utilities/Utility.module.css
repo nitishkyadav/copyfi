@@ -5,7 +5,8 @@
     color: white;
     padding: 2rem;
     border-radius: 10px;
-    text-align: center;
+    /* text-align: center; */
+    background-color: hsl(217, 69%, 7%);
 }
 
 .utility h1{
