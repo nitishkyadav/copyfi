@@ -58,7 +58,7 @@ ul{
 }
 .phases{
     /* margin: 50px; */
-    border: 1px solid grey;
+    border: 1px solid transparent;
     background-color:rgba(33, 33, 33, 1);
     margin-bottom: 2rem;
 }
