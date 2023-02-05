@@ -135,45 +135,6 @@ export default function Roadmap() {
           </TimelineItem>
         </Timeline>
       </div>
-
-      <Fragment>
-        <div className={classes.mobileTimeline}>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineConnector
-                sx={{
-                  backgroundColor: "grey",
-                  width: "5px",
-                  alignContent: "left",
-                }}
-              />
-            </TimelineSeparator>
-          </TimelineItem>
-
-          {/* <Timeline position="right">
-            <TimelineItem>
-              <TimelineSeparator>
-                <TimelineConnector
-                  sx={{
-                    backgroundColor: "grey",
-                    width: "5px",
-                    alignContent: "left",
-                  }}
-                />
-              </TimelineSeparator>
-              <TimelineContent color={white}>
-                <div className={`${classes.phase} ${classes.phases}`}>
-                  <ul>
-                    <li>- CEX Listing</li>
-                    <li>- Setting up Physical Space for Work</li>
-                    <li>- Team Expansion</li>
-                  </ul>
-                </div>
-              </TimelineContent>
-            </TimelineItem>
-          </Timeline> */}
-        </div>
-      </Fragment>
     </Fragment>
   );
 }
